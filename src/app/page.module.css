@@ -1,0 +1,36 @@
+.Hero_container{
+    height: 35vh;
+    margin-bottom: 2rem;
+    padding: 6rem 0rem;
+}
+.hero_subtitle {
+    color: #fff;
+    font-size: 18px;
+    width:50vw;
+    margin-top: 2.5rem;
+    text-align: center;
+    opacity: 0.4;
+}
+
+.hero_subtitle_skill_section{
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    opacity: 0.4;
+}
+
+.DownText_heading{
+    opacity: 0.4 !important;
+}
+
+.downTextMainContainer{
+    margin: 0rem 0rem 6rem 0rem;
+}
+
+.SkillCoverContainer{
+    margin: 6rem 0rem;
+}
+
+.footer{
+    padding: 2rem 0rem;
+}

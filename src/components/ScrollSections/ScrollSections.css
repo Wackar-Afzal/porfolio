@@ -1,0 +1,51 @@
+
+  .section {
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    z-index: 1;
+    background-color: lightgray;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 15px;
+    margin-bottom:3rem;
+  }
+  
+  #section1 { 
+    background-image: url("/BT.png");
+  }
+  
+  #section2 { 
+    background-image: url("/07.png");
+  }
+  
+  #section3 {
+    background-image: url("/12.jpeg");
+  }
+  
+  #section4 {  
+    background-image: url("/11.png");
+    background-position: top center;
+
+  }
+  
+  .blurred {
+    z-index: 0; /* Sections behind the current section */
+  }
+  
+  .current {
+    z-index: 2; /* The currently active section */
+  }
+
+  .LastSection{
+    background-image: url("/09.png");
+    z-index: 1;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+
+  }
