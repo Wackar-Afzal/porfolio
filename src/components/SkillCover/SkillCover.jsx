@@ -9,7 +9,7 @@ const six_Caps = Six_Caps({ subsets: ["latin"], weight:["400"] });
 
 gsap.registerPlugin(ScrollTrigger);
 
-const skills=["Web design","MObile App developement","ui/ux design","Seo Optimzation","Social Media Management","Data Analytics","Content creation"]
+const skills=["Web design","MObile App Developement","ui/ux design","Seo Optimzation","Social Media Management","Data Analytics","Content creation"]
 
 
 const SkillCover = () => {
